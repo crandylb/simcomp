@@ -1,9 +1,10 @@
-README.txt -- For simcmp, the simple compiler, CRB, Sep 5, 2012
+README.txt -- For simcmp, the simple compiler, CRB, Sep 8, 2012
 
 Files in this directory
 
       README.txt	this file
       simcmp.c		complete source code for simple compiler
+      simcmp		executable compiled for x86_64 Linux
       simtst.txt	test file for simcmp
       simtst.out	expected output for simtst.txt
 
