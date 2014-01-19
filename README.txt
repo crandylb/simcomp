@@ -62,7 +62,8 @@ the capabilities of simcmp.
 
 LICENSE
 
-The GNU general public license applies to all files written by me.
+The GNU general public license applies to all files written by me except
+simtst.txt and simtst.out.
 
 What's Next
 
