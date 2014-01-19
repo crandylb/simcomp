@@ -1,4 +1,5 @@
 README.txt -- For simcmp, the simple compiler, CRB, Sep 8, 2012
+01/18/2014 CRB Add LICENSE
 
 Files in this directory
 
@@ -7,14 +8,15 @@ Files in this directory
       simcmp		executable compiled for x86_64 Linux
       simtst.txt	test file for simcmp
       simtst.out	expected output for simtst.txt
+      LICENSE		GPLv2
 
 Installation
 
 The simple compiler, called simcmp, is a limited macro processor used to
-translate the machine independent Stage2 source code to a procedural language
+translate the machine independent Stage 2 source code to a procedural language
 such as Fortran or C, or even to an assembly language. Because simcmp is so
 limited the translation may be somewhat crude and lack any optimization. Once
-a running version of Stage2 is obtained it can be used to translate its source
+a running version of Stage 2 is obtained it can be used to translate its source
 code again with any number of optimizations to refine its performance.
 
 Compile the simcmp.c program using:
@@ -57,6 +59,10 @@ The simtst.txt file contains a set of macros and test input to verify that
 simcmp is working properly. The output, simtst.out, is in the form of Fortran
 statements. The translation of the input text to output strings demonstrates
 the capabilities of simcmp.
+
+LICENSE
+
+The GNU general public license applies to all files written by me.
 
 What's Next
 
